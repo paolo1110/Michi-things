@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(270deg, #360D40 0%, #740091 100%);
+}
+.cards{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 30rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.titulo{
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    gap: 1rem;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.texto-t{
+    text-align: center;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.img-t{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    border-radius: 20%;
+}
+.caja-slider{
+    width: 80%;
+    max-width: 30rem; 
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff, 0 15px 50px;
+    background-color: rgba(255,255,255,0.7);
+    position: relative;
+}
+.slider{
+    display: flex;
+    margin-left: -100%;
+    width: 300%;
+    height: 300px;
+}
+.slider-section{
+    width: 100%;
+}
+.img-s{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #fff;
+}
+.btn-der{
+    right: 10px;
+}
+.rotulo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+.titulo2{
+    display: grid;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    gap: 1rem;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.texto-t2{
+    text-align: center;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.img-t2{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    border-radius: 20%;
+}
+.caja-slider2{
+    width: 80%;
+    max-width: 30rem; 
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff, 0 15px 50px;
+    background-color: rgba(255,255,255,0.7);
+    position: relative;
+}
+.slider2{
+    display: flex;
+    margin-left: -100%;
+    width: 300%;
+    height: 300px;
+}
+.slider-section2{
+    width: 100%;
+}
+.img-s2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn2:hover{
+    background: #fff;
+}
+.btn-der2{
+    right: 10px;
+}
+.rotulo2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+.titulo3{
+    display: grid;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    gap: 1rem;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.texto-t3{
+    text-align: center;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.img-t3{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    border-radius: 20%;
+}
+.caja-slider3{
+    width: 80%;
+    max-width: 30rem; 
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff, 0 15px 50px;
+    background-color: rgba(255,255,255,0.7);
+    position: relative;
+}
+.slider3{
+    display: flex;
+    margin-left: -100%;
+    width: 300%;
+    height: 300px;
+}
+.slider-section3{
+    width: 100%;
+}
+.img-s3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn3:hover{
+    background: #fff;
+}
+.btn-der3{
+    right: 10px;
+}
+.rotulo3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
